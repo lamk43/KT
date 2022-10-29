@@ -67,6 +67,12 @@
     <Compile Include="frmNhom.Designer.cs">
       <DependentUpon>frmNhom.cs</DependentUpon>
     </Compile>
+    <Compile Include="LienLac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LienLac.Designer.cs">
+      <DependentUpon>LienLac.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\AppDBContext.cs" />
     <Compile Include="Model\TenGoi.cs" />
     <Compile Include="Model\TenNhom.cs" />
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhom.resx">
       <DependentUpon>frmNhom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LienLac.resx">
+      <DependentUpon>LienLac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

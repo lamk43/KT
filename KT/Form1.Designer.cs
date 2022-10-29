@@ -143,7 +143,8 @@
             // 
             // dataGridView2
             // 
-            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.dataGridView2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView2.AutoGenerateColumns = false;
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
@@ -162,7 +163,8 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -188,7 +190,7 @@
             this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(963, 38);
+            this.toolStrip1.Size = new System.Drawing.Size(963, 34);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -197,7 +199,7 @@
             this.btnThemNhom.Image = ((System.Drawing.Image)(resources.GetObject("btnThemNhom.Image")));
             this.btnThemNhom.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThemNhom.Name = "btnThemNhom";
-            this.btnThemNhom.Size = new System.Drawing.Size(139, 33);
+            this.btnThemNhom.Size = new System.Drawing.Size(139, 29);
             this.btnThemNhom.Text = "Thêm Nhóm";
             this.btnThemNhom.Click += new System.EventHandler(this.btnThemNhom_Click);
             // 
@@ -207,7 +209,7 @@
             this.btnXoaNhom.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnXoaNhom.Name = "btnXoaNhom";
             this.btnXoaNhom.RightToLeftAutoMirrorImage = true;
-            this.btnXoaNhom.Size = new System.Drawing.Size(126, 33);
+            this.btnXoaNhom.Size = new System.Drawing.Size(126, 29);
             this.btnXoaNhom.Text = "Xóa Nhóm";
             this.btnXoaNhom.Click += new System.EventHandler(this.btnXoaNhom_Click);
             // 
@@ -216,7 +218,7 @@
             this.btnThemLienLac.Image = ((System.Drawing.Image)(resources.GetObject("btnThemLienLac.Image")));
             this.btnThemLienLac.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnThemLienLac.Name = "btnThemLienLac";
-            this.btnThemLienLac.Size = new System.Drawing.Size(150, 33);
+            this.btnThemLienLac.Size = new System.Drawing.Size(150, 29);
             this.btnThemLienLac.Text = "Thêm Liên Lạc";
             // 
             // btnXoaLienLac
@@ -224,20 +226,20 @@
             this.btnXoaLienLac.Image = ((System.Drawing.Image)(resources.GetObject("btnXoaLienLac.Image")));
             this.btnXoaLienLac.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnXoaLienLac.Name = "btnXoaLienLac";
-            this.btnXoaLienLac.Size = new System.Drawing.Size(137, 33);
+            this.btnXoaLienLac.Size = new System.Drawing.Size(137, 29);
             this.btnXoaLienLac.Text = "Xóa Liên Lạc";
             // 
             // cbbNhapTuCanTim
             // 
             this.cbbNhapTuCanTim.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.cbbNhapTuCanTim.Name = "cbbNhapTuCanTim";
-            this.cbbNhapTuCanTim.Size = new System.Drawing.Size(121, 38);
+            this.cbbNhapTuCanTim.Size = new System.Drawing.Size(121, 34);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(149, 33);
+            this.toolStripLabel1.Size = new System.Drawing.Size(149, 29);
             this.toolStripLabel1.Text = "Nhập Từ Cần Tìm";
             // 
             // hoTenDataGridViewTextBoxColumn
