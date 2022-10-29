@@ -61,7 +61,7 @@ namespace KT
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -95,6 +95,25 @@ namespace KT
                     NapDSTenNhom();
                 }
             }
+        }
+
+        private void btnXoaLienLac_Click(object sender, EventArgs e)
+        {
+            if (selectedTenGoi != null)
+            {
+                var rs = MessageBox.Show("Bạn có chắc là muốn xóa?", "Chú ý", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (rs == DialogResult.OK)
+                {
+                    TenGoiService.RemoveSinhVien(selectedTenGoi);
+                    NapDSTenGoi();
+                }
+            }
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            NapDSTenGoi();
         }
     }
 }

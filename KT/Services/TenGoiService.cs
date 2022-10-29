@@ -85,5 +85,10 @@ namespace KT.Services
 
             return KetQua.ThanhCong;
         }
+
+        internal static KetQua LienLac()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

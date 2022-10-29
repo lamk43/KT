@@ -177,6 +177,7 @@
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(207, 397);
             this.dataGridView1.TabIndex = 6;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // toolStrip1
             // 
@@ -228,6 +229,7 @@
             this.btnXoaLienLac.Name = "btnXoaLienLac";
             this.btnXoaLienLac.Size = new System.Drawing.Size(137, 29);
             this.btnXoaLienLac.Text = "Xóa Liên Lạc";
+            this.btnXoaLienLac.Click += new System.EventHandler(this.btnXoaLienLac_Click);
             // 
             // cbbNhapTuCanTim
             // 
